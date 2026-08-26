@@ -1,0 +1,3 @@
+phrase1 = "\t\t\t\t\t\t\t\t\t\t\t\t*\n\t\t\t\t\t\t\t\t*\t\t\t\t\t\t\t\t*\n\t\t\t\t\t\t*\t\t\t\t\t\t\t\t\t\t\t\t*\n\t\t\t\t\t*\t\t\t\t\t\t\t\t\t\t\t\t\t\t*\n\t\t\t\t\t* *\t\t\t\t\tHi,My name is  Venn Marc\t\t\t\t\t\t\t* *\n\t\t\t\t\t* *\t\t\t\t\tFrom BSIT-1B\t\t\t\t\t\t\t\t\t* *\n\t\t\t\t\t*  * * * * * * * * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \n\t\t\t\t\t*  * * * * * * * * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \n\t\t\t\t\t*  * * * * * * * * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * "
+
+print(phrase1)
