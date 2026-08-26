@@ -28,3 +28,4 @@ isStudent = False
 print("My age is", age1, age2, age3, age4, age5)
 print("My temp is", temp1, temp2, temp3, temp4, temp5)
 print("My string is", username1, username2, username3, username4, username5)
+print("is he student?", isStudent)
