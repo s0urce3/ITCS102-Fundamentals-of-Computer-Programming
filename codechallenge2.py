@@ -1,15 +1,23 @@
-Deposit = 19863
+#BANK CHALLENGE
 
-P1000 = Deposit // 1000
-P500 = Deposit // 500
-P200 = Deposit // 200
-P100 = Deposit // 100
-P50 = Deposit // 50
-P20 = Deposit // 20
-P5 = Deposit // 5
-P1 = Deposit // 1
+Balance = 19863
+#Thousand = 19
+#Five Hundred = 1
+#Two Hundred = 1
+#One Hundred = 1
+#Fifty = 1
+#Twenty = 0
+#Ten = 1
+#Five= 0
+#one = 3
 
-print("P1000 -",P1000)
-print(
-print(
-print(
+print("Your Current Balance Money is --->",Balance)
+print ("Money to Withdraw--->",Balance)
+
+Thousand = Balance // 1000
+Balance = Balance % 19
+print("Withdraw Balance is --->",Thousand)
+
+Five Hundred = Balance // 500
+Balance = Balance % 1
+print("Withdraw Balance--->",Five Hundred)
