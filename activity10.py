@@ -5,13 +5,14 @@ password = "Marc"
 
 u = input("Input USERNAME -->  ")
 p = input("Input PASSWORD -->  ")
-
-if  u == username :
-	print("username corect")
+# Erase which one is not using" 
+#2 "and"
+ if  u == username and p == password :
+	print("username and password corect")
 else:
-	print("username incorrect")
-
-if  p == password :
-	print("password corect")
+	print("acess denied")
+#3 "or"
+ if  u == username or p == password :
+	print("username and password corect")
 else:
-	print("password incorrect")
+	print("acess denied")
