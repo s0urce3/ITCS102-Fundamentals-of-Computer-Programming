@@ -1,0 +1,50 @@
+print("Welcome to Global Freight Calculator")
+#input
+name =input("Sender name --->",)
+item =input("Type of Item --->",)
+weight =float(input("State the Weight(K.G) --->",))
+distance =float(input("How far are the location (K.M)--->",))
+
+# Do not enter any condition if want to achieve ("Free shipping, "Fast shipping and Standard Shipping")
+# Enter True lr false if you want to achieve (" International Shipping and Heavy shipping)")
+IsFragile =bool(input("Is it Fragile? (True or false) --->"))
+IsInternational = bool(input("Is it International? ( True or False) --->"))
+IsInternational == "True"
+IsExpress = bool(input("Is it Express?(True or False) --->"))
+IsExpress == "True"
+
+#Calculate Base Count
+base_cost =(weight * 2.50) + (distance)
+
+#elif conditions
+if  weight <= 2.0 and distance <= 100 and not IsExpress  and not IsInternational:
+     shipping_rate = ("Free Shipping")
+     total = 0.00
+
+elif IsInternational and IsExpress:
+    shipping_rate = ("International Shipping")
+    total = (base_cost * 1.40) + 50
+
+elif IsExpress and (IsInternational or weight > 20):
+     shipping_rate = ("Heavy Shiping")
+     total = (base_cost *1.20) + 25
+
+elif weight > 30 or distance > 100:
+    shipping_rate = ("over sized")
+    total = (base_cost *1.20) + 30
+
+else:
+    total = base_cost
+    shipping_rate ("Standard shipping")
+
+total = round (total, 2)
+
+#outputs
+print("\nYour Official Reciept:")
+print("\tSender Name: ", name)
+print("\tType of Item: ", item)
+print("\tIs it Fragile:",IsFragile)
+print("\tWeight (kg): ", weight)
+print("\tDistance (km): ", distance)
+print("\tShipment Details:",shipping_rate)
+print("\tTotal Cost: â±", total)
