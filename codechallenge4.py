@@ -25,9 +25,9 @@ if username ==  correct_username and password == correct_password:
     #Inputs
     Full_name= input("Please enter your Full name--->")
     age= int(input("Enter your age --->"))
-    #comparison
+    
     is_employed = input("Are you employed? (True/False):")
-    #description
+    
     Job_description=input("Enter your job description:")
     credit_score= int(input("What is your credit_score history?"))
     annual_income= eval(input("How much is your annual income? --->"))
