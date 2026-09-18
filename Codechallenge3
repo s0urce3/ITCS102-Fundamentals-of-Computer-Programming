@@ -9,9 +9,9 @@ distance =float(input("How far are the location (K.M)--->",))
 # Enter True lr false if you want to achieve (" International Shipping and Heavy shipping)")
 IsFragile =bool(input("Is it Fragile? (True or false) --->"))
 IsInternational = bool(input("Is it International? ( True or False) --->"))
-IsInternational == "True"
+IsInternational == True
 IsExpress = bool(input("Is it Express?(True or False) --->"))
-IsExpress == "True"
+IsExpress == True
 
 #Calculate Base Count
 base_cost =(weight * 2.50) + (distance)
@@ -47,4 +47,4 @@ print("\tIs it Fragile:",IsFragile)
 print("\tWeight (kg): ", weight)
 print("\tDistance (km): ", distance)
 print("\tShipment Details:",shipping_rate)
-print("\tTotal Cost: â±", total)
+print("\tTotal Cost: $", total)
