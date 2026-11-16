@@ -1,3 +1,4 @@
+#while loop 
 anime = []
 
 isContinue = True
