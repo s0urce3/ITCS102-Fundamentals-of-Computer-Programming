@@ -1,5 +1,5 @@
 # CODE CHALLENGE 7
-# FLOYD'S TRIANGLE
+
 
 rows = int(input("How Many?: "))
 counter = 1
