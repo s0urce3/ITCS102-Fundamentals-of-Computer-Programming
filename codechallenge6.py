@@ -1,5 +1,4 @@
-# CODE CHALLENGE 6
-# THE X 
+#codechallenge6
 
 rows = int(input("Input how many rows do you want: "))
 
